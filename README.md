@@ -1,10 +1,12 @@
 **To Run From CMD:**
 **---------------**
+
 **Prerequisite**: Maven Should be Installed. To Install Maven, This is a Guide - https://maven.apache.org/install.html
 
 **Steps**: Open cmd **>>** Nevigate to Project Directory **>>** Exectute following command "clean install test -DsuiteFiles=testng.xml
 
 **Check Report**: Open Project Folder >> Reports >> Open "Reports.html" in browser
+
  **----------------------------------------------------------------------------------**
  **----------------------------------------------------------------------------------**
  
