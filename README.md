@@ -3,8 +3,9 @@
 **-------------------**
 
 **Prerequisite**: Maven Should be Installed. To Install Maven, This is a Guide - https://maven.apache.org/install.html
+### Make JDK is specified instead of JRE
 
-**Steps**: Open cmd **>>** Nevigate to Project Directory **>>** Exectute following command "clean install test -DsuiteFiles=testng.xml
+**Steps**: Open cmd **>>** Nevigate to Project Directory **>>** Exectute following command "mvn clean install test -DsuiteFiles=testng.xml
 
 **Check Report**: Open Project Folder >> Reports >> Open "Reports.html" in browser
 
@@ -18,7 +19,9 @@
 
 Prerequisits: Java Should be Installed 
 
-Open any IDE (i.e. Eclipse) >> Clone Project >> Run "testng.xml" as testng suite >> Check "Reports.html"
+Open any IDE (i.e. Eclipse) >> Clone Project >> Run pom.xml file as Mavel Build >> Run "testng.xml" as testng suite >> Check "Reports.html"
+
+### Make JDK is specified instead of JRE in Build path
 
 ********************************************************************************************
 
