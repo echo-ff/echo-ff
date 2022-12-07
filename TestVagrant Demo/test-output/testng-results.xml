@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up WebDriver]]>
+    </line>
+    <line>
+      <![CDATA[WebDriver Up and Running]]>
+    </line>
+    <line>
+      <![CDATA[Test 01 Started]]>
+    </line>
+    <line>
+      <![CDATA[Test 01 Ended]]>
+    </line>
+    <line>
+      <![CDATA[Test 02 Started]]>
+    </line>
+    <line>
+      <![CDATA[Test 02 Ended]]>
+    </line>
+    <line>
+      <![CDATA[Closing Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-07T09:15:39Z" name="Suite" finished-at="2022-12-07T09:15:53Z" duration-ms="13659">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T09:15:39Z" name="Test" finished-at="2022-12-07T09:15:53Z" duration-ms="13659">
+      <class name="testCases.VerifyCountryAndDate">
+        <test-method is-config="true" signature="setupdatafiles()[pri:0, instance:testCases.VerifyCountryAndDate@1852a3ff]" started-at="2022-12-07T09:15:37Z" name="setupdatafiles" finished-at="2022-12-07T09:15:39Z" duration-ms="2419" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up WebDriver]]>
+            </line>
+            <line>
+              <![CDATA[WebDriver Up and Running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupdatafiles -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:testCases.VerifyCountryAndDate@1852a3ff]" started-at="2022-12-07T09:15:39Z" name="setupTest" finished-at="2022-12-07T09:15:39Z" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="VerifyDateOfRelease()[pri:1, instance:testCases.VerifyCountryAndDate@1852a3ff]" started-at="2022-12-07T09:15:39Z" name="VerifyDateOfRelease" finished-at="2022-12-07T09:15:49Z" duration-ms="9432" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test 01 Started]]>
+            </line>
+            <line>
+              <![CDATA[Test 01 Ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyDateOfRelease -->
+        <test-method signature="VerifyCountryOfRelease()[pri:2, instance:testCases.VerifyCountryAndDate@1852a3ff]" started-at="2022-12-07T09:15:49Z" name="VerifyCountryOfRelease" finished-at="2022-12-07T09:15:52Z" duration-ms="3680" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test 02 Started]]>
+            </line>
+            <line>
+              <![CDATA[Test 02 Ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyCountryOfRelease -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:testCases.VerifyCountryAndDate@1852a3ff]" started-at="2022-12-07T09:15:52Z" name="tearDownTest" finished-at="2022-12-07T09:15:53Z" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.VerifyCountryAndDate@1852a3ff]" started-at="2022-12-07T09:15:53Z" name="teardown" finished-at="2022-12-07T09:15:54Z" duration-ms="1214" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.VerifyCountryAndDate -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
