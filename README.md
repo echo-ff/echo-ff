@@ -1,7 +1,5 @@
 ## **To Run From CMD:**
 
-**-------------------**
-
 **Prerequisite**: Maven Should be Installed. To Install Maven, This is a Guide - https://maven.apache.org/install.html
 
 **Make sure JDK is specified instead of JRE**
@@ -14,9 +12,7 @@
  
  
  
-### **To Run from IDE**
-
-**---------------------**
+## **To Run from IDE**
 
 Prerequisits: Java Should be Installed 
 
@@ -27,9 +23,7 @@ Open any IDE (i.e. Eclipse) >> Clone Project >> Run pom.xml file as Mavel Build 
 ********************************************************************************************
 
 
-**Run on Jenkins Server**
-
-**---------------------**
+## **Run on Jenkins Server**
 
 Host repository on GitHub/Bitbucket
 
