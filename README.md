@@ -1,15 +1,21 @@
 **To Run From CMD:**
+
 Prerequisite: Maven Should be Installed. https://maven.apache.org/install.html
+
 Steps: Open cmd >> Nevigate to Project Directory >> Exectute following command "clean install test -DsuiteFiles=testng.xml
+
 Check Report: Open Project Folder >> Reports >> Open "Reports.html" in browser
 
 **To Run from IDE**
+
 Prerequisits: Java Should be Installed 
 Open any IDE (i.e. Eclipse) >> Clone Project >> Run "testng.xml" as testng suite >> Check "Reports.html"
 
 **Run on Jenkins Server**
+
 Host repository on GitHub/Bitbucket 
 Install Jenkins on Server >> Create Jenkins Job with details like 
+
 **Configure**
   Description : Demo Project
   Repositoy:
