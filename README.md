@@ -1,9 +1,10 @@
-**To Run From CMD:**
+## **To Run From CMD:**
 
 **-------------------**
 
 **Prerequisite**: Maven Should be Installed. To Install Maven, This is a Guide - https://maven.apache.org/install.html
-### Make JDK is specified instead of JRE
+
+**Make sure JDK is specified instead of JRE**
 
 **Steps**: Open cmd **>>** Nevigate to Project Directory **>>** Exectute following command "mvn clean install test -DsuiteFiles=testng.xml
 
