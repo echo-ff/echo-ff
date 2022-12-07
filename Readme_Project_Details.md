@@ -30,7 +30,7 @@ Classes: VerifyDateAndCountry.java
 
 **DATA :**
 
-Fetching url from pageURLs.properties file using
+Fetching url from pageURLs.properties file using DataProvider.java class
 
 **Test Report**
 
