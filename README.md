@@ -13,7 +13,8 @@
  
  
 **To Run from IDE**
-*********************
+
+**---------------------**
 Prerequisits: Java Should be Installed 
 Open any IDE (i.e. Eclipse) >> Clone Project >> Run "testng.xml" as testng suite >> Check "Reports.html"
 
@@ -21,7 +22,9 @@ Open any IDE (i.e. Eclipse) >> Clone Project >> Run "testng.xml" as testng suite
 
 
 **Run on Jenkins Server**
-************************
+
+**---------------------**
+
 Host repository on GitHub/Bitbucket 
 Install Jenkins on Server >> Create Jenkins Job with details like 
 
