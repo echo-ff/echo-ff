@@ -35,7 +35,7 @@ Install Jenkins on Server >> Create Jenkins Job with details like
 
   Description : Demo Project
   
-  Repositoy:
+  Repositoy: https://github.com/echo-ff/echo-ff.git
   
   Credentials : Not Required as it is public
   
