@@ -16,7 +16,7 @@
 
 Prerequisits: Java Should be Installed 
 
-Open any IDE (i.e. Eclipse) >> Clone Project >> Run pom.xml file as Mavel Build [Base Directory: Location of the Project !!!IMPORTANT!!! AND GOAL: mvn test -DsuiteFiles=testng.xml]] >> Then Check Report.html
+Open any IDE (i.e. Eclipse) >> Clone Project >> Run pom.xml file as Mavel Build **[Base Directory: Location of the Project !!!IMPORTANT!!! AND GOAL: mvn test -DsuiteFiles=testng.xml]]** >> Then Check Report.html
 
 **Make sure JDK is specified instead of JRE in Build path**
 
