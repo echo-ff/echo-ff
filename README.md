@@ -1,6 +1,6 @@
 **To Run From CMD:**
 
-**---------------**
+**-------------------**
 
 **Prerequisite**: Maven Should be Installed. To Install Maven, This is a Guide - https://maven.apache.org/install.html
 
@@ -8,7 +8,7 @@
 
 **Check Report**: Open Project Folder >> Reports >> Open "Reports.html" in browser
 
- **********************************************************************************-**
+ ********************************************************************************************
  
  
  
