@@ -91,7 +91,10 @@ public class VerifyCountryAndDate extends BaseClass{
 		
 		//Step 2: Open IMDB Page
 		imdbpage.openIMDBPage();
-		imdbpage.imdb_releasedate_button.click();
+		
+		Helper.waitTillElmentVisible(driver, imdbpage.imdb_releasedate_button);
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("arguments[0].click();", imdbpage.imdb_releasedate_button );
 		
 		//Assert if Correct Page is Opened i.e. IMDB of Pushpa
 		if(driver.getTitle().contains("Pushpa")) {
