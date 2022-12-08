@@ -43,7 +43,7 @@ Install Jenkins on Server >> Create Jenkins Job with details like
   
   Branch to Build : Master
   
-  Build Periodically if want to run the build everyday { H 6  * * * }
+  Build Periodically if want to run the build everyday like { H 6  * * * }
   
   Goals and options : clean install test -DsuiteFile=testng.xml
   
