@@ -45,7 +45,7 @@ Install Jenkins on Server >> Create Jenkins Job with details like
   
   Build Periodically if want to run the build everyday { H 6  * * * }
   
-  Goals and options : clean install test -DsuiteFile=XMLFiles/testng.xml
+  Goals and options : clean install test -DsuiteFile=testng.xml
   
 **Post Build**
   Sent Extent Report to Email
