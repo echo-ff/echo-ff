@@ -21,6 +21,9 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import baseClass.BaseClass;
 import testPages.IMDB;
 import testPages.Wiki;
+import utilities.Helper;
+
+import org.openqa.selenium.JavascriptExecutor;
 
 
 public class VerifyCountryAndDate extends BaseClass{
